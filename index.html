@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cookie Maker JS</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Créer une interface avec des inputs + un input date en HTML -->
+        <!-- Styliser -->
+        <!-- Créer un cookie quand on clique sur "créer" -->
+        <!-- Afficher les cookies quand on clique sur "afficher" -->
+        <!-- Supprimer un cookie en cliquant dessus -->
+        <!-- Gérer les affichages / suppression correctement -->
+
+        <h1>🍪 Le créateur de Cookies 🍪</h1>
+
+        <input type="text" name="cookieName" value="pull" />
+        <input type="text" name="cookieValue" value="50" />
+        <input type="date" name="cookieExpire" />
+
+        <div class="container-btns">
+            <button data-cookie="creer" class="btn1">Créer</button>
+            <button data-cookie="toutAfficher" class="btn2">Afficher</button>
+        </div>
+
+        <p class="info-txt"></p>
+        <ul class="affichage"></ul>
+
+        <script src="/app.js"></script>
+    </body>
+</html>

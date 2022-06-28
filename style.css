@@ -1,0 +1,62 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: -webkit-gradient(linear, left top, right top, from(#c9d6ff), to(#e2e2e2));
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+}
+
+body h1 {
+  text-align: center;
+  font-size: 4vw;
+  margin: 30px 0;
+}
+
+body input {
+  display: block;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 20px;
+  width: 75%;
+}
+
+body .container-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+body .container-btns button {
+  display: block;
+  width: 200px;
+  font-size: 25px;
+  padding: 5px;
+  margin: 5px;
+}
+
+body .info-txt {
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 20px;
+  width: 75%;
+}
+
+body .affichage {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 75%;
+  padding: 15px;
+  font-size: 40px;
+}
+/*# sourceMappingURL=style.css.map */
